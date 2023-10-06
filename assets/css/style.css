@@ -1,0 +1,113 @@
+/* * {
+    border: solid red;
+}
+
+div {
+    border: solid blue;
+} */
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 30px;
+}
+
+nav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.hero-banner {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.page-section {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 3rem 0;
+}
+
+.page-section h2 {
+    width: 20%;
+    font-size: 2rem;
+    margin-right: 2rem;
+    text-align: right;
+}
+
+.content {
+    border-left: solid black 5px;
+    padding-left: 2rem;
+    width: 70%;
+}
+
+.project-box {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    border: red solid;
+}
+
+#subheading {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    text-align: right;
+    padding: 10px 40px;
+}
+
+#project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "project1 project1"
+    "project1 project1"
+    "project2 project3"
+    "project4 project5";
+}
+
+#main-project {
+    grid-area: project1;
+}
+
+#secondary-project1 {
+    grid-area: project2;
+}
+
+#secondary-project2 {
+    grid-area: project3;
+}
+
+#secondary-project3 {
+    grid-area: project4;
+}
+
+#secondary-project4 {
+    grid-area: project5;
+}
+
+#contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
