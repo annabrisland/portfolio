@@ -1,46 +1,117 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Anna // Web Developer</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Anna // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  <body>
+    <!-- main logo / nav -->
+    <header>
+      <div>
+        <h1>Anna</h1>
+      </div>
+      <nav>
+        <div>
+            <a href="#about-me">About Me</a>
+        </div>
+        <div>
+            <a href="#work">Work</a>
+        </div>
+        <div>
+            <a href="#contact-me">Contact Me</a>
+        </div>
+      </nav>
+    </header>
 
-<body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Anna</h1>
-    <nav>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <!-- hero banner -->
+    <section class="hero-banner">
+      <div>
+        <h2>Cool subtitle here!</h2>
+      </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+    <main class="page-wrapper">
+      <!-- about me -->
+      <a id="about-me"></a>
+      <section class="page-section" id="about-section">
+        <h2>About Me</h2>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            quae laborum. Nisi nobis repellat debitis aspernatur? Eveniet
+            dolorem minima impedit accusamus quo, voluptatum officiis fugiat
+            numquam sit, facilis iure id.
+          </p>
+        </div>
+      </section>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-</body>
+      <!-- portfolio container -->
+      <a id="work"></a>
+      <section class="page-section" id="work-section">
+        <h2>Work</h2>
+        <div class="content" id="project-grid">
+          <div class="project-box" id="main-project">
+            <a href="#" target="_blank"><img src="assets/images/image.jpg"/></a>
+            <div class="project-title">
+                <h3>Main Project</h3>
+                <p>Project description</p>
+            </div>
+          </div>
+          <div class="project-box" id="secondary-project">
+            <a href="#" target="_blank"><img src="assets/images/image.jpg"/></a>
+            <div class="project-title">
+                <h3>Project</h3>
+                <p>Project description</p>
+            </div>
+          </div>
+          <div class="project-box" id="secondary-project">
+            <a href="#" target="_blank"><img src="assets/images/image.jpg"/></a>
+            <div class="project-title">
+                <h3>Project</h3>
+                <p>Project description</p>
+            </div>
+          </div>
+          <div class="project-box" id="secondary-project">
+            <a href="#" target="_blank"><img src="assets/images/image.jpg"/></a>
+            <div class="project-title">
+                <h3>Project</h3>
+                <p>Project description</p>
+            </div>
+          </div>
+          <div class="project-box" id="secondary-project">
+            <a href="#" target="_blank"><img src="assets/images/image.jpg"/></a>
+            <div class="project-title">
+                <h3>Project</h3>
+                <p>Project description</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!-- contact -->
+      <a id="contact-me"></a>
+      <section class="page-section contact" id="contact-section">
+        <h2>Contact Me</h2>
+        <div class="content">
+          <div>
+            <h4>123 456 7890</h4>
+        </div>
+          <div>
+            <a href="mailto:annabrisland@gmail.com">Email</a>
+          </div>
+          <div>
+            <a href="https://github.com/annabrisland" target="_blank">GitHub</a>
+          </div>
+          <div>
+            <a href="https://www.linkedin.com/in/anna-brisland-2b5734232/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
